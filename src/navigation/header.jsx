@@ -59,7 +59,7 @@ const Header = () => {
                         <a href="#home"><li>Home</li></a>
                         <a href="#project"><li>Project</li></a>
                         {/* <a href="#animation"><li>Animations</li></a> */}
-                        <a href="#about"><li>About</li></a>
+                        {/* <a href="#about"><li>About</li></a> */}
                         <a href="#contact"><li>Contact</li></a>
                     </ul>
                 </nav>
