@@ -77,7 +77,7 @@ const ContactForm = () => {
                         className="mt-1 p-2 border rounded w-full"
                     ></textarea>
                 </div>
-                <button type="submit" className="bg-blue-500 text-white p-2 rounded w-full md:w-auto">Send</button>
+                <button type="submit" className="bg-blue-500 text-white p-2 rounded w-full">Send</button>
             </form>
         </div>
     );
