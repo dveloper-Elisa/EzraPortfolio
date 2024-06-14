@@ -4,7 +4,7 @@ const Home = () => {
             <div className="flex flex-col md:flex-row justify-center items-center h-screen gap-10">
                 <div className="personal max-w-[90%] md:max-w-[45%]">
                     <img 
-                        src="https://scontent.fkgl2-1.fna.fbcdn.net/v/t39.30808-6/325384204_864732428147003_5289304738677461071_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFFTd9n5WAuh2ddCRums8AD8ahn6bhEravxqGfpuEStq2mFdtVlkNawteM9e0_FN43imuESyasyXM0f3XLAQCXo&_nc_ohc=RettJV8nJOsQ7kNvgFbP2PA&_nc_zt=23&_nc_ht=scontent.fkgl2-1.fna&oh=00_AYBr1PdLj1qiqlBoMRuamyVsGLovg3iQu4u6V4a_SsGG9A&oe=66713060" 
+                        src="./ezra 2.jpg" 
                         alt="profile not found" 
                         className=" rounded-full w-72 transition-all animate-pulse"
                     />

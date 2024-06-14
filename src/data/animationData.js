@@ -2,19 +2,40 @@
 
 const animationsData =[
     {
-        src:"./animation of vox ldt.mp4",
-        title:"Video from X"
+        src:"https://drive.google.com/file/d/1SOlLsLDhC56ftM2VT3_7f8HAmFjYuIMU/view?usp=drive_link",
+        title:"Animated video"
     },
     {
-        src:"./BENZO.mp4", 
+        // src:"./BENZO.mp4", 
+        src:"https://drive.google.com/file/d/1pdQAIgTTKuvi6XwaoDlKrKMRa5jldbqL/view?usp=drive_link", 
         title:"python tutorial"
     },
     {
-        src:"./benzo sub scrib.mp4",
+        src:"https://drive.google.com/file/d/1MmmTi3E2qehxK3gxbCaibF0Btkne5YAq/view?usp=drive_link",
         title:""
     },
     {
-        src:"./battrey.mp4",
+        src:"https://drive.google.com/file/d/1uKlcJh42ClOo9ozFUfQwsiXfM_MeDeuJ/view?usp=drive_link",
+        title:""
+    },
+    {
+        src:"https://drive.google.com/file/d/1RvvQUUKEWrxdsbBD-8ELBnpQ1kdj6uSS/view?usp=drive_link",
+        title:""
+    },
+    {
+        src:"https://drive.google.com/file/d/1kHvQ-ivRqX5BGUgJIaoQ1ry4KTkU39bw/view?usp=drive_link",
+        title:""
+    },
+    {
+        src:"https://drive.google.com/file/d/1uPzIVn8LRbcwJyZnyVhIgW5Ju9FvPTN4/view?usp=drive_link",
+        title:""
+    },
+    {
+        src:"https://drive.google.com/file/d/18nqkTmN4ExFRUHhs3JKgokSKULZeoQQ8/view?usp=drive_link",
+        title:""
+    },
+    {
+        src:"https://drive.google.com/file/d/1PH3Pc3szO6cBY6wXYGxlur7z-QYHauec/view?usp=drive_link",
         title:""
     },
 ]

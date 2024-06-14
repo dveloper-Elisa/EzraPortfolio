@@ -39,7 +39,7 @@ const ContactForm = () => {
 
     return (
         <div className="flex flex-col justify-center items-center min-h-screen mb-5" id='contact'>
-            <h2 className="font-bold font-mono text-6xl bg-slate-200 w-full text-center py-10 my-20">Reach out to us</h2>
+            <h2 className="w-full text-center py-10 font-bold font-mono text-3xl sm:text-3xl md:text-3xl bg-slate-200 my-5">Reach out to us</h2>
             <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow-md w-full max-w-md">
                 <h2 className="text-2xl mb-4">Contact Us</h2>
                 <div className="mb-4">

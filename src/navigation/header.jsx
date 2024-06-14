@@ -8,11 +8,11 @@ const Header = () => {
     };
 
     return (
-        <div className="bg-slate-800 text-white sticky top-0 z-50">
-            <div className="container mx-auto flex justify-between items-center px-6 py-4">
+        <div className="bg-slate-800 text-white sticky top-0 z-50 w-[100%]">
+            <div className="container w-full mx-auto flex justify-between items-center py-2">
                 <div id="logo" className="flex items-center">
                     <img src="./vox_mok_up-removebg-preview.png" alt="Logo here" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full"/>
-                    <p className="ml-2 font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-4xl font-mono">Mpyisi_Vox</p>
+                    <p className="ml-2 font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-2xl font-mono">Mpyisi_Vox</p>
                 </div>
 
                 {/* Toggle Button for Small Screens */}
