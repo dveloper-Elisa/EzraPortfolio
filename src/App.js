@@ -12,7 +12,7 @@ return(
   <div className='bg-slate-300'>
   <Header/>
   <Home/>
-  {/* <AnimationsDt/> */}
+  <AnimationsDt/>
   <WorkoutProject/>
   <ContactForm/>
   <Footer/>

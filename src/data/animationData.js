@@ -2,19 +2,19 @@
 
 const animationsData =[
     {
-        src:"https://www.youtube.com/watch?v=IbUmbYKY_Q4",
+        src:"./animation of vox ldt.mp4",
         title:"Video from X"
     },
     {
-        src:"https://x.com/i/status/1800446861888598340", 
+        src:"./BENZO.mp4", 
         title:"python tutorial"
     },
     {
-        src:"",
+        src:"./benzo sub scrib.mp4",
         title:""
     },
     {
-        src:"",
+        src:"./battrey.mp4",
         title:""
     },
 ]
