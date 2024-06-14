@@ -9,27 +9,30 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
-                    <div className="flex flex-row gap-4">
-                        <a href="https://www.linkedin.com/in/ezra-sibomana-067176260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' rel="noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors">
+                    <div className="flex flex-col gap-4">
+                        <p className='text-4xl text-blue-500 underline'>Follow me on:</p>
+                        <a href="https://www.linkedin.com/in/ezra-sibomana-067176260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' rel="noreferrer" className="text-blue-500 hover:text-blue-400 flex flex-row items-center gap-2 transition-colors">
                             <FaLinkedin/> LinkedIn
                         </a>
-                        <a href="https://x.com/EzraSiboma88189?t=qpO6WnDE69cZAOINwNuWSw&s=09" className="text-blue-500 hover:text-blue-400 transition-colors" target='_blank' rel="noreferrer">
+                        <a href="https://x.com/EzraSiboma88189?t=qpO6WnDE69cZAOINwNuWSw&s=09" className="text-blue-500 hover:text-blue-400 flex flex-row items-center gap-2 transition-colors" target='_blank' rel="noreferrer">
                             <FaTwitter/> Twitter
                         </a>
-                        <a href="https://www.facebook.com/ezra.sibomana.7" className="text-blue-500 hover:text-blue-400 transition-colors" target='_blank' rel="noreferrer">
+                        <a href="https://www.facebook.com/ezra.sibomana.7" className="text-blue-500 hover:text-blue-400 flex flex-row items-center gap-2 transition-colors" target='_blank' rel="noreferrer">
                             <FaFacebookF/> Facebook
                         </a>
-                        <a href="https://wa.me/+250792497750" className="text-blue-500 hover:text-blue-400 transition-colors" target='_blank' rel="noreferrer">
+                        <a href="https://wa.me/+250792497750" className="text-blue-500 hover:text-blue-400 flex flex-row items-center gap-2 transition-colors" target='_blank' rel="noreferrer">
                             <FaWhatsapp/> Whatsapp
                         </a>
+                    </div> 
                     </div>
-
-                    <ul className="flex flex-wrap gap-4 md:gap-8 text-white mt-4 md:mt-0">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#project">Project</a></li>
-                        <li><a href="#animation">Animations</a></li>
-                        {/* <li><a href="#about">About</a></li> */}
-                        <li><a href="#contact">Contact</a></li>
+                <div className=''>
+                    <ul className="flex flex-col gap-4 md:gap-8 text-white mt-4 md:mt-0">
+                        <p className='text-3xl text-white underline'>Quick Naviagtions</p>
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#project"><li>Project</li></a>
+                        <a href="#animation"><li>Animations</li></a>
+                        {/* <a href="#about"><li>About</li></a> */}
+                        <a href="#contact"><li>Contact</li></a>
                         
                     </ul>
                 </div>

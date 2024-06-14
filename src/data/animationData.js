@@ -3,12 +3,12 @@
 const animationsData =[
     {
         src:"https://drive.google.com/file/d/1SOlLsLDhC56ftM2VT3_7f8HAmFjYuIMU/view?usp=drive_link",
-        title:"Animated video"
+        title:""
     },
     {
         // src:"./BENZO.mp4", 
         src:"https://drive.google.com/file/d/1pdQAIgTTKuvi6XwaoDlKrKMRa5jldbqL/view?usp=drive_link", 
-        title:"python tutorial"
+        title:""
     },
     {
         src:"https://drive.google.com/file/d/1MmmTi3E2qehxK3gxbCaibF0Btkne5YAq/view?usp=drive_link",

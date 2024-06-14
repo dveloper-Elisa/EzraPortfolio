@@ -22,7 +22,7 @@ const Header = () => {
                 >
                     {isMenuOpen ? (
                         <svg
-                            className="h-6 w-6"
+                            className="h-6 w-6 items-end justify-end"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ const Header = () => {
                 </button>
 
                 {/* Navigation Menu */}
-                <nav className={`md:flex md:items-center ${isMenuOpen ? 'block' : 'hidden'} absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto bg-slate-800 md:bg-transparent`}>
+                <nav className={`md:flex md:items-center ${isMenuOpen ? 'block' : 'hidden'} absolute md:relative top-12 md:top-0 left-0 w-full md:w-auto bg-slate-800 md:bg-transparent`}>
                     <ul className="flex flex-col md:flex-row md:gap-10 items-center md:items-baseline">
                         <li className="p-2 md:p-0"><a href="#home">Home</a></li>
                         <li className="p-2 md:p-0"><a href="#project">Project</a></li>
