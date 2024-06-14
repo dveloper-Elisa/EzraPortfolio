@@ -12,7 +12,7 @@ const WorkoutProject = () => {
                     <Project key={index} imgurl={pro.imgurl} imageText={pro.imageText} />
                 ))}
                 <div className="justify-center items-center text-center first-letter:uppercase text-base sm:text-lg md:text-xl">
-                    For more reference click <a href="https://web.facebook.com/ezra.sibomana.7/photos_by" target="_blank" rel="noreferrer" className="font-bold text-blue-800 border-2 border-blue-500 hover:bg-black hover:text-white animate-pulse">Me</a>
+                    For more reference click <a href="https://www.instagram.com/mpyisivox?igsh=MXV3eGtwa2Jocncxdg==" target="_blank" rel="noreferrer" className="font-bold text-blue-800 border-2 border-blue-500 hover:bg-black hover:text-white animate-pulse">Me</a>
                 </div>
             </div>
         </div>
