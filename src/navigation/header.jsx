@@ -58,7 +58,7 @@ const Header = () => {
                     <ul className="flex flex-col md:flex-row md:gap-10">
                         <a href="#home"><li>Home</li></a>
                         <a href="#project"><li>Project</li></a>
-                        <a href="#animation"><li>Animations</li></a>
+                        {/* <a href="#animation"><li>Animations</li></a> */}
                         <a href="#about"><li>About</li></a>
                         <a href="#contact"><li>Contact</li></a>
                     </ul>
