@@ -20,23 +20,23 @@ const animationsData =[
     },
     {
         src:"https://drive.google.com/file/d/1RvvQUUKEWrxdsbBD-8ELBnpQ1kdj6uSS/view?usp=drive_link",
-        title:""
+        title:"Benzo TV"
     },
     {
         src:"https://drive.google.com/file/d/1kHvQ-ivRqX5BGUgJIaoQ1ry4KTkU39bw/view?usp=drive_link",
-        title:""
+        title:"Clock Time"
     },
     {
         src:"https://drive.google.com/file/d/1uPzIVn8LRbcwJyZnyVhIgW5Ju9FvPTN4/view?usp=drive_link",
-        title:""
+        title:"Book Logo"
     },
     {
         src:"https://drive.google.com/file/d/18nqkTmN4ExFRUHhs3JKgokSKULZeoQQ8/view?usp=drive_link",
-        title:""
+        title:"Inyange FC"
     },
     {
         src:"https://drive.google.com/file/d/1PH3Pc3szO6cBY6wXYGxlur7z-QYHauec/view?usp=drive_link",
-        title:""
+        title:"Inyange FC Animated"
     },
 ]
 

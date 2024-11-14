@@ -1,26 +1,32 @@
+import { FaPenFancy } from 'react-icons/fa'; 
+
 const Home = () => {
     return (
-        <div className="flex justify-center max-w-full p-5" id="home">
-            <div className="flex flex-col md:flex-row justify-center items-center h-screen gap-2">
-                <div className="personal max-w-[80%] md:max-w-[45%]">
+        <div className="flex justify-center bg-gray-900 text-white h-screen" id="home">
+            <div className="flex flex-col md:flex-row justify-center items-center w-[90%] sm:w-[80%] mt-7 gap-8">
+                {/* Profile Image Section */}
+                <div className="w-full sm:w-[80%] md:w-1/2 lg:w-[40%] rounded-full overflow-hidden shadow-lg">
                     <img 
                         src="./ezra 2.jpg" 
-                        alt="profile not found" 
-                        className=" rounded-full w-72 h-4/5 transition-all animate-pulse"
+                        alt="Profile not found" 
+                        className="w-full h-auto object-cover hover:scale-110 transition-transform duration-1000"
                     />
                 </div>
 
-                <div className="-mt-20 font-sans max-w-[80%] md:max-w-[45%] text-center md:text-left">
-                    <p className="text-blue-500 font-extrabold text-2xl md:text-4xl lg:text-5xl">
-                        Welcome to Ezra Vox Designer
-                    </p>    
-                    <p className="mt-4 text-sm md:text-base lg:text-lg text-white">
-                        At Ezra Vox Design, we are passionate about creating exceptional and professional designs tailored to your unique needs. Our dedication to innovation and creativity ensures that each project stands out and makes a lasting impact. Your success is our inspiration.
+                {/* Text Content Section */}
+                <div className="md:mt-0 w-full sm:w-[80%] md:w-1/2 lg:w-[50%] space-y-6">
+                    <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold">
+                        I,  <span className="text-yellow-500">Ezra Vox Designer</span>
+                    </p>
+                    <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
+                        <FaPenFancy className="text-yellow-500 text-[1rem] inline-block mr-2" />
+                        At Ezra Vox Design, we are passionate about creating exceptional, professional designs tailored to your unique needs.
+                        Our commitment to innovation and creativity ensures that each project stands out and makes a lasting impact. Your success is our inspiration.
                     </p>
                 </div>
             </div>
 
-            <div id="text"></div>
+            {/* <div id="text"></div> */}
         </div>
     );
 }
