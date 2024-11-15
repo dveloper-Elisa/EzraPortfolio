@@ -21,18 +21,24 @@ const Videos = ({ src, title }) => {
         <div className="flex flex-col justify-center gap-5 bg-slate-800 rounded-md border p-2 hover:bg-slate-700 hover:text-white hover:transition hover:duration-1000 border-blue-700">
             {isYouTubeVideo || isVimeoVideo || isGoogleDriveVideo ? (
                 <iframe
-                    src={embedSrc}
+                    src={embedSrc || src}
                     title={title}
                     className="w-full h-44 md:h-56 lg:h-64 sm:h-44 rounded-md"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                 ></iframe>
             ) : (
-                <video src={src} alt="Video animation here" className="w-full h-80" controls />
+                <video
+                    src={src}
+                    alt="Video animation here"
+                    className="w-full h-44 md:h-44 lg:h-64 sm:h-44 rounded-md"
+                    controls
+                    autoPlay={false}
+                    onContextMenu={(e) => e.preventDefault()}
+                    typeof="video/mp4"
+                    data-quality="720"
+                />
             )}
-            {/* <p className="bottom-3 text-white">
-                {title}
-            </p> */}
         </div>
     );
 };

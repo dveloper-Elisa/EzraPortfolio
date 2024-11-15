@@ -1,12 +1,40 @@
 
 const imagedata =[
     {
+        imgurl:"./TYAZA.jpeg",
+        imageText:"Tyaza Limited flayer",
+    },
+    {
+        imgurl:"./TYAZA2.jpeg",
+        imageText:"Tyaza Limited flayer",
+    },
+    {
+        imgurl:"./DVD.jpeg",
+        imageText:"Basines Card",
+    },
+    {
+        imgurl:"./DVD2.jpeg",
+        imageText:"Davide's Cards",
+    },
+    {
+        imgurl:"./VOX-LOGO.jpeg",
+        imageText:"Mpyisi Vox",
+    },
+    {
+        imgurl:"./VOX.jpeg",
+        imageText:"VOX Designer",
+    },
+    {
+        imgurl:"./VOXDESIGN.jpeg",
+        imageText:"Vox Designer Logo",
+    },
+    {
         imgurl:"./erisa new logo.png",
-        imageText:"Logo designed for Elisa's logo",
+        imageText:"Elisa's logo",
     },
     {
         imgurl:"./ezra flayer.jpg",
-        imageText:"fliyer done for publishing editors",
+        imageText:"Flayer "
     },
     {
         imgurl:"./final.jpg",

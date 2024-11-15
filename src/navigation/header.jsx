@@ -8,11 +8,11 @@ const Header = () => {
     };
 
     return (
-        <div className="bg-slate-800 text-white sticky top-0 z-50 w-[100%]">
+        <div className="bg-slate-800 text-white sticky top-0 z-50 w-[100%] px-4">
             <div className="container w-full mx-auto flex justify-between items-center py-2">
-                <div id="logo" className="flex items-center">
-                    <img src="./vox_mok_up-removebg-preview.png" alt="Logo here" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full"/>
-                    <p className="ml-2 font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-2xl font-mono">Mpyisi_Vox</p>
+                <div id="logo" className="flex items-center gap-1">
+                    <img src="./VOX.jpeg" alt="Logo here" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 rounded-full"/>
+                    <p className="font-extrabold text-xl sm:text-2xl md:text-2xl lg:text-2xl font-mono">Mpyisi_Vox</p>
                 </div>
 
                 {/* Toggle Button for Small Screens */}
@@ -55,11 +55,11 @@ const Header = () => {
 
                 {/* Navigation Menu */}
                 <nav className={`md:flex md:items-center ${isMenuOpen ? 'block' : 'hidden'} absolute md:relative top-12 md:top-0 left-0 w-full md:w-auto bg-slate-800 md:bg-transparent`}>
-                    <ul className="flex flex-col md:flex-row md:gap-10 items-center md:items-baseline">
-                        <li className="p-2 md:p-0"><a href="#home">Home</a></li>
-                        <li className="p-2 md:p-0"><a href="#project">Project</a></li>
-                        <li className="p-2 md:p-0"><a href="#animation">Animations</a></li>
-                        <li className="p-2 md:p-0"><a href="#contact">Contact</a></li>
+                    <ul className="flex flex-col md:flex-row md:gap-5 items-left md:items-baseline">
+                        <li className="p-[4px] "><a href="#home" onClick={()=>setIsMenuOpen(!isMenuOpen)}>Home</a></li>
+                        <li className="p-[4px] "><a href="#project" onClick={()=>setIsMenuOpen(!isMenuOpen)}>Project</a></li>
+                        <li className="p-[4px] "><a href="#animation" onClick={()=>setIsMenuOpen(!isMenuOpen)}>Animations</a></li>
+                        <li className="p-[4px] "><a href="#contact" onClick={()=>setIsMenuOpen(!isMenuOpen)}>Contact</a></li>
                     </ul>
                 </nav>
             </div>

@@ -9,10 +9,9 @@ a{
     padding: 4px;
 } */
 
-a:hover{
+ul li:hover{
     background-color: white;
     color: black;
     transition-duration: 0.2s;
     border-radius: 5px;
-    padding:4px
 }

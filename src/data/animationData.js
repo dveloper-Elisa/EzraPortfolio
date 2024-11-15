@@ -2,6 +2,26 @@
 
 const animationsData =[
     {
+        src:"./TYAZA.mp4",
+        title:""
+    },
+    {
+        src:"./MPYISI.mp4",
+        title:""
+    },
+    {
+        src:"BSC.mp4",
+        title:""
+    },
+    {
+        src:"PERSON.mp4",
+        title:""
+    },
+    {
+        src:"EMMY-WOLK.mp4",
+        title:""
+    },
+    {
         src:"https://drive.google.com/file/d/1SOlLsLDhC56ftM2VT3_7f8HAmFjYuIMU/view?usp=drive_link",
         title:""
     },

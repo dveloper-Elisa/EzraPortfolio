@@ -43,7 +43,7 @@ const ContactForm = () => {
 
   return (
     <div
-      className="flex flex-col justify-center items-center min-h-screen mb-5 bg-zinc-900 w-[100%]"
+      className="flex flex-col justify-center items-center min-h-screen pb-5 bg-zinc-900 w-[100%]"
       id="contact"
     >
 
