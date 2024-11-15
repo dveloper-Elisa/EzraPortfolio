@@ -2,13 +2,13 @@ import { FaLinkedin, FaTwitter, FaFacebookF, FaWhatsapp, FaInstagram} from 'reac
 
 const Footer = () => {
     return (
-        <div className="bg-gray-900 py-8">
-            <div className="container mx-auto flex flex-col md:flex-row justify-between  gap-5">
+        <div className="bg-gray-900 p-8">
+            <div className="container mx-auto flex flex-col md:flex-row gap-5 justify-evenly">
                 <div className="logo">
                     <img src="./VOX.jpeg" alt="Logo here" className="w-52 h-52 rounded-full"/>
                 </div>
 
-                <div className="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-row">
                     <div className="flex flex-col gap-4">
                         <p className='text-2xl text-blue-500 '>Follow me</p>
                         <a href="https://www.linkedin.com/in/ezra-sibomana-067176260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' rel="noreferrer" className="text-white hover:text-blue-400 flex flex-row items-center gap-2 transition-colors">
