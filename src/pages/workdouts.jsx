@@ -80,7 +80,7 @@ const WorkoutProject = () => {
             </button>
             <button
               onClick={handleNextImage}
-              className="absolute font-extrabold text-[1.5rem] right-20 top-1/2 transform -translate-y-1/2 bg-white bg-transparent text-black p-2 rounded-full"
+              className="absolute font-extrabold text-[1.5rem] right-2 top-1/2 transform -translate-y-1/2 bg-white bg-transparent text-black p-2 rounded-full"
             >
               {">"}
             </button>
